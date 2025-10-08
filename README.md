@@ -89,7 +89,7 @@ SCB STATS: Pass=2 Fail=0
 
 ## 📚 Protocol Reference
 
-This testbench adheres to the **AMBA APB v2.0** protocol:
+This testbench adheres to the **AMBA APB v1.0** protocol:
 - Setup phase: `psel=1`, `penable=0`
 - Access phase: `psel=1`, `penable=1`
 - Completion: wait for `pready=1`
